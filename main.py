@@ -4,10 +4,10 @@ import traceback
 
 app = Flask("app")
 
-invoke_ids = ["se2021_" + str(x) for x in range(1, 27)]
+invoke_ids = ["se2021_" + str(x) for x in range(1, 28)]
 
 
-@app.route("/api/pay", methods=["POST"])
+@app.route("/api/payment", methods=["POST"])
 def pay():
     """
     接入所需信息:
