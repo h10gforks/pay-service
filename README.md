@@ -23,10 +23,12 @@ A pay-service for SE2021 at fdu
 ```json
 {
     "invoke_id": "se2021_1",
-    "uid": "str",
+    "uid": "20212010001",
     "amount": 12.5
 }
 ```
+
+
 
 #### Responses:
 
